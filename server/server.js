@@ -4,7 +4,7 @@ const colors = require("colors");
 const dotenv = require("dotenv");
 const axios = require("axios");
 const app = express();
-
+const path = require("path");
 app.use(cors({ methods: ["GET", "PATCH"] }));
 
 app.use(express.json());
